@@ -1,0 +1,7 @@
+{
+	"codes": [
+		"____(\"Hello World\")",
+		"____ i in range(10):\n    ____(\"Hello World\")",
+		"n = ____(input(\"Enter a number: \"))\nif (n ____ 2) == 0:\n    print(\"This is an even number\")\n____:\n    print(\"This is an odd number\")"
+	]
+}
