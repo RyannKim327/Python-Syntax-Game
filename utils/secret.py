@@ -17,13 +17,11 @@ class syntax:
 		for i in range(len(splits)):
 			if splits[0] != "" and i == 0:
 				result += f"{splits[i]}"
-			else:
+			elif i != 0:
 				result += f"{i}. ____ {splits[i]}"
 		
 		return result
 	
 	def checkCode(self, code):
-		try:
-			exec(code)
-		except:
-			print("Error Code")
+		exec(code)
+		
