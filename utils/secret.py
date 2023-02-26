@@ -23,5 +23,7 @@ class syntax:
 		return result
 	
 	def checkCode(self, code):
-		exec(code)
-		
+		try:
+			exec(code)
+		except:
+			print("Error")
